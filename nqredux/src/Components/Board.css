@@ -1,0 +1,25 @@
+.board{
+    display: grid;
+    /* grid-template-columns: repeat(4,80px); */
+    border: 1px solid black;
+}
+.cell {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.white {
+  background-color: #eeeed5;
+}
+.black {
+  background-color: #7d945d;
+}
+.queen{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
